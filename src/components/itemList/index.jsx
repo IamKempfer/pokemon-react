@@ -8,11 +8,30 @@ function ItemList(props) {
       </div>
 
       <div className="status">
-        {props.pokemon} {props.type} {props.nvl}
+        <p>
+          <b>
+            Nome: <i> {props.pokemon} </i>
+          </b>
+        </p>
+        <p>
+          <b>
+            Tipo: <i> {props.type} </i>{" "}
+          </b>
+        </p>
+        <p>
+          <b>
+            Nível: <i> {props.nvl} </i>{" "}
+          </b>
+        </p>
       </div>
 
-      <div class="buttons">
-        {props.detalhes} {props.Selecionar}
+      <div className="buttons">
+        <button className="detalhes" type="button">
+          Detalhes
+        </button>
+        <button className="selecionar" type="button">
+          Selecionar
+        </button>
       </div>
     </Container>
   );

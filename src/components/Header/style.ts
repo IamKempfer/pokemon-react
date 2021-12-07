@@ -6,7 +6,7 @@ export const Container = styled.header`
   align-items: center;
   border-bottom: 4px solid #f68b2a;
   margin: 73px 84px 0;
-  padding-bottom: 64px;
+  padding-bottom: 35px;
   cursor: pointer;
 
   > img {
