@@ -1,4 +1,4 @@
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/logo.svg";
 import Ball from "../../assets/images/POKEBOLA.svg";
 
 import { Container } from "./style";
