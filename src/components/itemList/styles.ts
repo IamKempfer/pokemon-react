@@ -21,11 +21,11 @@ export const Container = styled.main`
     border-radius: 5px;
     object-fit: contain;
     box-sizing: border-box;
-    box-shadow: 10px #000;
     flex: 1;
   }
 
   .status {
+    filter: drop-shadow(0px 2px);
     width: 14rem;
     height: 5.43rem;
     font-size: 0.75rem;
@@ -45,6 +45,7 @@ export const Container = styled.main`
   }
 
   .buttons {
+    filter: drop-shadow(0px 2px black);
     display: flex;
     justify-content: center;
     align-items: center;
